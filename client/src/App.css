@@ -1,0 +1,87 @@
+.app-container {
+  /* text-align: center; */
+  height: 100vh;
+  width: 100vw;
+}
+
+.header{
+  text-align: center;
+}
+
+.modalHeader {
+  font-weight: 600;
+}
+
+.modalNav {
+  border-bottom: 1px solid #dcd7d7;
+}
+
+.tableData {
+  margin: 4%;
+}
+
+.nav-link {
+  padding: 0% !important;
+  color: grey;
+}
+
+.notes {
+  margin-left: 10%;
+}
+
+.selected-item {
+  border-bottom: 2px solid #0b10d8;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttonSaveClose{
+  background-color:lightblue;
+  border:none;
+  color:white;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  float:right;
+}
+
+.buttonSaveClose:hover{
+  background-color: darkblue;
+}
+
+.deleteButton:hover{
+  background-color: lightblue;
+
+}
+
+.clear-button {
+  padding-left: 3%;
+}
+
+.formData{
+  margin-top:15px; 
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.saveClosePartition{
+  border-top: 1px solid #dcd7d7;
+}
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
